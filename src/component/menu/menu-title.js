@@ -22,7 +22,7 @@ export default function MenuTitle(text){
         margin: 30px 0px;
 
         ${props => 
-            props.select == true && 
+            props.select && 
             css`
             background-color: white;
             `}

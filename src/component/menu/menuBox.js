@@ -3,11 +3,6 @@ import MenuTitle from "./menu-title";
 
 export default function MenuBox(){
 
-
-
-
-
-
     return(
         <>
             <div className='menu-box'>
