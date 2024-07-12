@@ -1,7 +1,7 @@
 import { useState } from "react"
 import styled, { css } from "styled-components"
 
-export default function MenuTitle(text){
+export default function MenuTitle({text}){
 
     const [select, setSelect] = useState(false);
 
@@ -32,7 +32,7 @@ export default function MenuTitle(text){
     return(
         <>
             <div onClick={onclickMenu}>
-                <Menu select={select}><p>메뉴1</p></Menu>              
+                <Menu select={select}><p>{text}</p></Menu>              
             </div>
         </>
     )

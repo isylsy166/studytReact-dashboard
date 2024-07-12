@@ -1,0 +1,9 @@
+.main-box{
+    min-width: 100%;
+    padding: 20px 40px;
+}
+
+.main-box h1{
+    font-size: 30px;
+    color: #767676;
+}
