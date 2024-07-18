@@ -1,6 +1,6 @@
 
 .menu-box{
-    background-color: lightgray;
+    background-color: #dfd5dd;
     min-width: 300px;
     min-height: 100vh;
     display: flex;
@@ -37,6 +37,9 @@
     margin: 20px 0px;
     cursor: pointer;
     align-items: center;
+    font-size: 23px;
+    font-weight: bold;
+    color: #a978a1;
 }
 
 .menu-title{
