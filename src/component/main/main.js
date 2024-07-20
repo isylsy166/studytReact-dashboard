@@ -1,5 +1,7 @@
 import { useSelector } from 'react-redux';
 import ConvasPage from '../ConvasPage/newCanvas';
+import CreateBoardPage from '../Board/createBoard';
+import BoardListPage from '../Board/boardList';
 
 export default function Main(){
 
@@ -11,8 +13,8 @@ export default function Main(){
             <div className='main-box'>
                 <h1>{text}</h1>
                 {menu_Id === 'menu01' && <ConvasPage/>}
-                {menu_Id === 'menu02' && <p>음식 레시피?</p>}
-                {menu_Id === 'menu03' && <p>뭐만들지.. 게시판?</p>}
+                {menu_Id === 'menu02' && <CreateBoardPage/>}
+                {menu_Id === 'menu03' && <BoardListPage/>}
             </div>
         </>
     )
